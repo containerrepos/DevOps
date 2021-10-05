@@ -40,12 +40,13 @@ $sh play_books.sh
 # Step 3: Configure Pipeline project to Build and run containerized Flask app
 http://PUBLICIP:8080
 
-Intsall docker pipeline and Office 365 connector plugins
+a.Intsall docker pipeline and Office 365 connector plugins
 
-configure Pipeline project and Microsoft Teams channel
+b.configure Pipeline project and Microsoft Teams channel
+
 https://github.com/cssp-user/flask-app.git
 
-Run the job 
+c.Run the job 
 
 http://PUBLICIP::5001
 
