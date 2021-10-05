@@ -1,5 +1,5 @@
 # Project Title
-Set up Pipeline project
+This project is intended to implement CICD pipeline to build and run containerized Flask application. 
 
 # Pre-Requisites
 
