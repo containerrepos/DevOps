@@ -1,2 +1,55 @@
-# DevOps
-This repo is intended to implement CICD pipeline to build and run containerized Flask app
+# Project Title
+Set up Pipeline project
+
+# Pre-Requisites
+
+Launch ec2 instance to run terraform with name sandbox
+
+Login to sandbox instance
+
+$sudo yum install git -y 
+
+$git clone https://github.com/cssp-user/DevOps.git
+
+$cd DevOps
+
+$sh sandbox.sh
+
+$source export.sh
+
+
+# Step 1: Provisioning infrastructure with Terraform
+$cd terraform
+
+$terraform init .
+
+$terraform plan .
+
+$terraform apply .
+
+# Step 2: Installing and configuring Jenkins server using Ansible playbook
+login to jenkins server 
+
+$sh packages.sh
+
+$sh ssh_keys.sh
+
+$sh play_books.sh
+
+
+# Step 3: Configure Pipeline project to Build and run containerized Flask app
+http://PUBLICIP:8080
+
+Intsall docker pipeline and Office 365 connector plugins
+
+configure Pipeline project and Microsoft Teams channel
+https://github.com/cssp-user/flask-app.git
+
+Run the job 
+
+http://PUBLICIP::5001
+
+
+
+
+
