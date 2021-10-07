@@ -1,0 +1,10 @@
+# Ansible specific
+*.retry
+
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+
+# vi editor specific
+*.swp
