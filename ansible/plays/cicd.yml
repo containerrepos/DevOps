@@ -1,5 +1,0 @@
-- hosts: localhost
-  become: yes
-  roles:
-   - {  role: /home/centos/DevOps/ansible/roles/cicd }
-
