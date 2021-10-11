@@ -9,13 +9,16 @@ Login to sandbox instance
 
 $sudo yum install git -y 
 
-$git clone https://github.com/cssp-user/DevOps.git
+$git clone https://github.com/containerrepos/DevOps.git
 
 $cd DevOps
 
 $sh sandbox.sh
 
 $source export.sh
+
+# Step 1: Build Base AMI
+https://github.com/containerrepos/base-ami-builder
 
 
 # Step 1: Provisioning infrastructure with Terraform
