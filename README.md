@@ -18,7 +18,9 @@ $sh sandbox.sh
 $source export.sh
 
 # Step 1: Build Base AMI
-https://github.com/containerrepos/base-ami-builder
+sudo docker ps -a | grep Exit | cut -d ' ' -f 1 | xargs sudo docker rm && sudo docker rmi -f $(docker images -a -q)
+
+$git clone https://github.com/containerrepos/base-ami-builder
 
 
 # Step 1: Provisioning infrastructure with Terraform
