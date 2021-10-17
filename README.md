@@ -1,4 +1,6 @@
 # Project Title
+sudo docker ps -a | grep Exit | cut -d ' ' -f 1 | xargs sudo docker rm && sudo docker rmi -f $(docker images -a -q)
+
 This project is intended to implement CICD pipeline to build and run containerized Flask application. 
 
 # Pre-Requisites
@@ -18,12 +20,13 @@ $sh sandbox.sh
 $source export.sh
 
 # Step 1: Build Base AMI
-sudo docker ps -a | grep Exit | cut -d ' ' -f 1 | xargs sudo docker rm && sudo docker rmi -f $(docker images -a -q)
+https://github.com/containerrepos/base-ami
 
-$git clone https://github.com/containerrepos/base-ami-builder
+# Step 2: Build Custom AMI with Packer
+https://github.com/containerrepos/packer
 
 
-# Step 1: Provisioning infrastructure with Terraform
+# Step 3: Provisioning infrastructure with Terraform
 $cd terraform
 
 $terraform init .
