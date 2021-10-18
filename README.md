@@ -1,7 +1,5 @@
 # Project Title
-sudo docker ps -a | grep Exit | cut -d ' ' -f 1 | xargs sudo docker rm && sudo docker rmi -f $(docker images -a -q)
-
-This project is intended to implement CICD pipeline to build and run containerized Flask application. 
+This project is intended to touch and feel containerized Web Application. 
 
 # Pre-Requisites
 
