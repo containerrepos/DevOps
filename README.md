@@ -23,7 +23,7 @@ $source export.sh
 https://github.com/containerrepos/base-ami
 
 # Step 2: Build Custom AMI with Packer
-https://github.com/containerrepos/packer
+https://github.com/containerrepos/custom-ami.git
 
 
 # Step 3: Provisioning infrastructure with Terraform
