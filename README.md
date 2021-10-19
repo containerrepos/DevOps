@@ -26,7 +26,7 @@ https://github.com/containerrepos/custom-ami.git
 # Step 3: Provisioning infrastructure with Terraform
 https://github.com/containerrepos/infra-manager
 
-# Step 4: Installing and configuring Web server using Ansible playbook
+# Step 4: Installing and configuring Web server using Ansible
 https://github.com/containerrepos/infra-bootstrapper
 
 # Step 5: Result
