@@ -23,15 +23,8 @@ https://github.com/containerrepos/base-ami
 # Step 2: Build Custom AMI with Packer
 https://github.com/containerrepos/custom-ami.git
 
-
 # Step 3: Provisioning infrastructure with Terraform
-$cd terraform
-
-$terraform init .
-
-$terraform plan .
-
-$terraform apply .
+https://github.com/containerrepos/infra-manager
 
 # Step 2: Installing and configuring Jenkins server using Ansible playbook
 login to jenkins server 
